@@ -49,3 +49,22 @@ Write a method `add` under an object `StringCalculator` that, given a delimited 
 1. Numbers greater than 1000 are ignored
 2. A single char delimiter can be defined on the first line starting with `//` (e.g `//#\n1#2` for a ‘#’ as the delimiter)
 3. A multi char delimiter can be defined on the first line starting with `//` (e.g. `//###\n1###2` for ‘###’ as the delimiter)
+
+## Prime Factors
+
+------
+
+This kata demonstrates the [`transformation priority premise`](https://en.wikipedia.org/wiki/Transformation_Priority_Premise).
+
+Write a function `generate` under a module `PrimeFactors` that, given an integer, returns the list containing the prime factors in numerical sequence.
+
+- 1 should return `[]`
+- 2 should return `[2]`
+- 3 should return `[3]`
+- 4 should return `[2,2]`
+- 5 should return `[5]`
+- 6 should return `[2,3]`
+- 7 should return `[7]`
+- 8 should return `[2,2,2]`
+- 9 should return `[3,3]`
+- 4620 should return `[2,2,3,5,7,11]`

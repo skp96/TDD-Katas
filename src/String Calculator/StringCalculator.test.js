@@ -1,6 +1,5 @@
 const StringCalculator = require('./StringCalculator');
 
-
 describe("String Calculator", () => {
   let stringCalc;
 
